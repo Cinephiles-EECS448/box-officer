@@ -1,5 +1,7 @@
 # Custom
 tmdb_movie_metadata/
+scripts/
+no_scripts.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

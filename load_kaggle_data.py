@@ -4,8 +4,8 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 load_dotenv()
 
-os.environ['KAGGLE_USERNAME'] = os.getenv("KAGGLE_USERNAME")
-os.environ['KAGGLE_KEY'] = os.getenv("KAGGLE_KEY")
+os.environ['KAGGLE_USERNAME'] = 'meisliknoah'
+os.environ['KAGGLE_KEY'] = '3196c0a57e50183c1780104f4d98ac9c'
 
 api = KaggleApi()
 api.authenticate()

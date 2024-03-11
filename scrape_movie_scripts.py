@@ -103,7 +103,6 @@ def scrape_scripts(driver: webdriver.Chrome, matches):
             with open(error_file_path, "a") as file:
                 file.write(movie_title + ", " + script_link + "\n")
         
-        
 if __name__ == "__main__":
     check_error_file()
     check_script_dir()

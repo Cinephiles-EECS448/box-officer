@@ -1,12 +1,9 @@
 import os
 from dotenv import load_dotenv
-from kaggle.api.kaggle_api_extended import KaggleApi
 
 load_dotenv()
 
-os.environ['KAGGLE_USERNAME'] = 'meisliknoah'
-os.environ['KAGGLE_KEY'] = '3196c0a57e50183c1780104f4d98ac9c'
-
+from kaggle.api.kaggle_api_extended import KaggleApi
 api = KaggleApi()
 api.authenticate()
 

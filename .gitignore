@@ -2,6 +2,10 @@
 tmdb_movie_metadata/
 scripts/
 no_scripts.txt
+custom-dnn.pth
+encoder_state.pkl
+ft_bert.pth
+gbr.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
